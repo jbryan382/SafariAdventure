@@ -2,7 +2,7 @@ using System;
 
 namespace SafariAdventure
 {
-  class Animal
+  public class Animal
   {
     public int Id { get; set; }
     public string Species { get; set; }

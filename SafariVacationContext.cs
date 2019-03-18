@@ -28,5 +28,6 @@ namespace SafariAdventure
     {
       modelBuilder.HasAnnotation("ProductVersion", "2.2.3-servicing-35854");
     }
+    public DbSet<Animal> Animals { get; set; }
   }
 }
